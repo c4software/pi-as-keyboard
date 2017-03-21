@@ -14,6 +14,7 @@ cp enable_hid.service /lib/systemd/system/
 
 # Install script
 cp enable_hid.sh /usr/bin/
+chmod +x /usr/bin/enable_hid.sh
 
 # Enable service
 systemctl enable enable_hid.service
