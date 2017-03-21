@@ -10,5 +10,3 @@ Make your Raspberry act as a Keyboard
 $ sudo ./setup.sh
 $ sudo reboot
 ```
-
-![Screenshot](screenshot.png)
