@@ -1,0 +1,10 @@
+[Unit]
+Description=Enable HID
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/enable_hid.sh
+
+[Install]
+WantedBy=multi-user.target
