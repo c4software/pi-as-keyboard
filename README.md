@@ -2,7 +2,7 @@
 
 Make your Raspberry Pi act as a Keyboard.
 
-The main purpose of this script is to « emulate » a keyboard when connected to a computer.
+The main purpose of this script is to make the Pi « emulate » a keyboard when connected to a computer.
 
 / ! \ Important : Do not connect the Pi on the Power connector. Use the « Data » USB port.
 
