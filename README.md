@@ -1,6 +1,8 @@
-# pi-as-keyboard
+# Pi-as-keyboard
 
-Make your Raspberry act as a Keyboard
+Make your Raspberry Pi act as a Keyboard.
+
+The main purpose of this script is to « emulate » a keyboard when connected to a computer.
 
 / ! \ Important : Do not connect the Pi on the Power connector. Use the « Data » USB port.
 
@@ -12,3 +14,5 @@ $ sudo reboot
 ```
 
 ![Screenshot](screenshot.png)
+
+## Test
