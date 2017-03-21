@@ -11,7 +11,8 @@ This project is voluntary small and simple to be used as a base for more complex
 All this setup as been tested on my Raspberry Pi Zero W the 2016/03/21.
 
 ## Important
-⚠️️  Do not connect the Pi on the Power connector. Use the « Data » USB port instead to power and data exchange ⚠️️
+
+⚠️️  ⚠️️  Do not connect the Pi on the Power connector. Use the « Data » USB port instead to power and data exchange. 
 
 ## Install
 
