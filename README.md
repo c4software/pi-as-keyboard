@@ -6,7 +6,7 @@ The main purpose of this setup script is to make the Pi « emulate » a keyboard
 
 ## Informations
 
-This project is voluntary small and simple to be used as a base for more complex projects (like hot keyboard remapping, Pi as Keyboard board, etc)
+This project is voluntary small and simple to be used as a base for more complex projects (like hot keyboard remapping, Pi as Keyboard controller, etc)
 
 All this setup as been tested on my Raspberry Pi Zero W the 2016/03/21.
 
