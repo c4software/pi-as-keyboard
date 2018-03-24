@@ -1,22 +1,22 @@
 # Pi-as-keyboard
 
-Make your Raspberry Pi act as a Keyboard via HID emulation.
+Make your Raspberry Pi act like a Keyboard via HID emulation.
 
-The main purpose of this setup script is to make the Pi « emulate » a keyboard when connected to a computer.
+The main purpose of this script is to make the Pi emulate a keyboard when connected to a computer.
 
-## Informations
+## Information
 
-This project is voluntary small and simple to be used as a base for more complex projects (like hot keyboard remapping, Pi as Keyboard controller, etc)
+This project is voluntary work and is small and simple designed to be used as a base for more complex projects (like hot keyboard remapping, etc)
 
-All this setup as been tested on my Raspberry Pi Zero W the 2016/03/21.
+This has been tested on my Raspberry Pi Zero W on the 21st of March 2016.
 
-## Important
+## WARNING
 
-⚠️️  ⚠️️  Do not connect the Pi on the Power connector. Use the « Data » USB port instead to power and data exchange. 
+⚠️️  ⚠️️  Do not connect the Pi using the power connector. Use the data port instead. 
 
 ## Install
 
-Connect on the Pi and run the setup script.
+On the Pi and run the setup script.
 
 ```sh
 $ sudo ./setup.sh
@@ -27,7 +27,7 @@ $ sudo reboot
 
 ## Test the setup
 
-This script will send scancodes to the computer connected on the Pi.
+This script will send scancodes to the computer connected to the Pi.
 
 ```
 $ sudo test.sh
