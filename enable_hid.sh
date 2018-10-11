@@ -3,9 +3,9 @@
 
 # Initial Setup
 modprobe libcomposite
-cd /sys/kernel/config/usb_gadget/ || exit
+cd /sys/kernel/config/usb_gadget/
 mkdir -p g1
-cd g1 || exit
+cd g1
 
 # Device description
 echo 0x1d6b > idVendor # Linux Foundation
