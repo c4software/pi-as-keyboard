@@ -12,7 +12,11 @@ This has been tested on my Raspberry Pi Zero W on the 21st of March 2016.
 
 ## WARNING
 
-⚠️️  ⚠️️  Do not connect the Pi using the power connector. Use the data port instead. 
+⚠️️⚠️️Do not connect the Pi using the power connector. Use the data port instead. 
+
+## Kernel Warning
+
+Since 2017 the default Kernel on the Rpi W seems broken with keyboard emulation. To fix the problem upgrade to the latest version with the ```rpi-update``` command (not installed by default)
 
 ## Install
 
