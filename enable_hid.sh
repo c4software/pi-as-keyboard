@@ -17,7 +17,6 @@ mkdir -p strings/0x409
 echo "fedcba9876543210" > strings/0x409/serialnumber
 echo "Valentin Brosseau" > strings/0x409/manufacturer
 echo "Keyboard-dev" > strings/0x409/product
-echo 250 > configs/c.1/MaxPower
 
 # Define a Keyboard
 mkdir -p functions/hid.usb0
@@ -37,5 +36,6 @@ ln -s functions/hid.usb0 configs/c.1/
 
 
 mkdir -p configs/c.1/strings/0x409
+echo 250 > configs/c.1/MaxPower
 echo "Config 1: ECM network" > configs/c.1/strings/0x409/configuration
 ls /sys/class/udc > UDC
