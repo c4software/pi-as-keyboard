@@ -36,6 +36,6 @@ ln -s functions/hid.usb0 configs/c.1/
 
 
 mkdir -p configs/c.1/strings/0x409
-echo 250 > configs/c.1/MaxPower
 echo "Config 1: ECM network" > configs/c.1/strings/0x409/configuration
+echo 250 > configs/c.1/MaxPower
 ls /sys/class/udc > UDC
