@@ -5,6 +5,7 @@ After=multi-user.target
 [Service]
 Type=simple
 ExecStart=/usr/bin/enable_hid.sh
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
