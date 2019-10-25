@@ -34,5 +34,5 @@ $ sudo reboot
 This script will send scancodes to the computer connected to the Pi.
 
 ```
-$ sudo test.sh
+$ sudo ./test.sh
 ```
