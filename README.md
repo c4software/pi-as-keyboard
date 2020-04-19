@@ -8,7 +8,7 @@ The main purpose of this script is to make the Pi emulate a keyboard when connec
 
 This project is voluntary work and is small and simple designed to be used as a base for more complex projects (like hot keyboard remapping, etc)
 
-This has been tested on my Raspberry Pi Zero W with Rasbian Buster the 25/10/2019
+This has been tested on my Raspberry Pi Zero W with Rasbian Buster the 18/04/2020
 
 ## WARNING
 
